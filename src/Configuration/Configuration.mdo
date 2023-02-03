@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d90c474-6b38-44ea-9323-2a0a41f409f5">
+  <name>СonFilter</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <modalityUseMode>Notify</modalityUseMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6663dfaf-fd21-4246-aa50-0e56756d6fa7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e566ebd1-42c3-4630-8575-eac1c03512c6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0ea6eddf-b249-40a7-9841-acb4b14e12f3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5741ccd4-c7e5-48db-91a7-47f8f30a1707"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="da798a3c-c854-455a-8db5-b9ce5db17b31"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="17afe071-949f-4168-8a2d-0e08dec1c86a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f8bf9dca-31df-47b5-8e49-ddb4c4f4009f"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>СonFilter_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ОсновнаяРоль_СonFilter</defaultRoles>
+  <version>1.1</version>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="f1705617-6bfb-455a-a3ac-5909c121f32e" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.ОсновнаяРоль_СonFilter</roles>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер_СonFilter</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_СonFilter</commonModules>
+  <httpServices>HTTPService.СonFilter</httpServices>
+  <catalogs>Catalog.ВариантыОтчетов</catalogs>
+  <dataProcessors>DataProcessor.ТрансформацияОтчетовJSON</dataProcessors>
+</mdclass:Configuration>

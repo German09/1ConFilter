@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d9b88f2-2567-4c1c-8c3c-8dcfe2113301">
+  <name>ОбщийМодульСерверПовтИсп_СonFilter</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий модуль сервер повт исп сon filter</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

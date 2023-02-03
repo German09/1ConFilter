@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d754da0-e7a4-486c-a08a-c22cc5a2b1fa">
+  <name>СonFilter</name>
+  <synonym>
+    <key>ru</key>
+    <value>СonFilter</value>
+  </synonym>
+  <rootURL>confilter</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="31bb1edb-a5ad-4ace-bfdc-cba74f319b21">
+    <name>report</name>
+    <synonym>
+      <key>ru</key>
+      <value>Report</value>
+    </synonym>
+    <template>/report</template>
+    <methods uuid="7448da0c-d844-4dbe-9356-1978f4cb7ee9">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>reportПолучить</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
